@@ -61,5 +61,5 @@ app.post("/v1/coffee/favourite", authenticate, (req, res) => {
   res.json({ data: { top3 } });
 });
 
-const port = 3002;
+const port = 3000;
 app.listen(port, () => console.log(`Server is running on port ${port}`));
