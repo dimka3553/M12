@@ -6,5 +6,5 @@ RUN apk update && apk add git && \
     cd coffee-api
 WORKDIR /usr/src/app/coffee-api
 RUN npm install
-EXPOSE 3002
+EXPOSE 3000
 CMD [ "node", "index.js" ]
