@@ -1,4 +1,4 @@
-# Unsecure Filestore
+# Pied Piper
 This is a simple filestore that allows you to upload and download text files. Text is compressed using brotli, and stored in the filesystem on several storage servers.
 
 ## Usage
